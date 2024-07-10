@@ -47,3 +47,10 @@
 
   font-size: 2rem;
 }
+
+.character {
+  background-color: whitesmoke;
+  color: blueviolet;
+  text-decoration: underline;
+  font-size: 3.8rem;
+}
