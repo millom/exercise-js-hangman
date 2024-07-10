@@ -21,3 +21,29 @@
 #legs {
   visibility: hidden;
 }
+
+.body-container {
+  background-color: burlywood;
+}
+
+.image-container {
+  background-color: aqua;
+}
+
+.gameplay-container {
+  background-color: brown;
+}
+
+.button-container {
+  background-color: blanchedalmond;
+}
+
+.button {
+  background-color: chartreuse;
+  padding: 5%;
+  border-radius: 12px;
+  border: 2px;
+  box-shadow: 10px 10px 5px 2px forestgreen;
+
+  font-size: 2rem;
+}
