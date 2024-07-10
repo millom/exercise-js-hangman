@@ -30,14 +30,7 @@ const setCurrentAWord = () => {
 };
 
 const createChildren = () => {
-  const toAddTagStr = /*html*/ `
-  <div>
-    input.<div class="mb-3">
-      <label for="" class="form-label"></label>
-      <textarea class="form-control" name="" id="" rows="3"></textarea>
-    </div>    
-  </div>
-  `;
+  const toAddTagStr = /*html*/ `<article class="character">?</article>`;
 
   for (let i = 0; i < currentWord.length; i++) {
     gameplayTag.insertAdjacentHTML("beforeend", toAddTagStr);
