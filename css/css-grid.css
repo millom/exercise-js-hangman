@@ -31,6 +31,11 @@
   justify-content: center;
 }
 
+.image-container {
+  /* height: 565px;
+  width: 501px; */
+}
+
 .gameplay-container {
   grid-row-start: 3;
   grid-row-end: 3;
