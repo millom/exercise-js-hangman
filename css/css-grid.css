@@ -5,8 +5,8 @@
 
 .body-container {
   display: grid;
-  grid-template-columns: 10% auto 10%;
-  grid-template-rows: 10% auto auto auto 10%;
+  grid-template-columns: 5% auto 5%;
+  grid-template-rows: 5% auto auto auto 5%;
   /* grid-gap: 1em; */
 
   /* grid-row-start: 2;
@@ -24,6 +24,11 @@
   grid-column-end: 2;
 
   margin: var(--margin);
+  padding: var(--padding);
+
+  display: grid;
+  align-content: center;
+  justify-content: center;
 }
 
 .gameplay-container {
@@ -33,6 +38,7 @@
   grid-column-end: 2;
 
   margin: var(--margin);
+  padding: var(--padding);
 
   display: flex;
   justify-content: center;
